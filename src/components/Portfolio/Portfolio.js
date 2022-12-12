@@ -1,0 +1,43 @@
+import React from "react"
+
+class Porfolio extends React.Component {
+    render() {
+        return (
+            <div className="flex flex-col justify-center items-center text-font my-10 text-center" id="portfolio">
+                <h1 className="text-7xl">Porfolio</h1>
+                <h1 className="text-4xl text-gray-500 my-6">Sesja biznesowa</h1>
+                <div className="container mx-auto items-center">
+                    <div className="grid grid-cols-2 gap-2 lg:grid-cols-4">
+                        <a href="https://www.facebook.com/photo?fbid=829177671745484&set=pcb.829182215078363" className="w-full col-span-2 row-span-2"><img src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/318186680_829177658412152_6214050879546812163_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=mYzypuH4tWAAX9zPh2G&_nc_ht=scontent-waw1-1.xx&oh=00_AfD5PaAw1LqsarXMq5HTdoPnyGL8DS61Yjwu7bssG5YYaQ&oe=639C83CD" className="inset-0 h-full w-full object-cover object-center rounded-lg" alt="bg" /></a>
+                        <a href="https://www.facebook.com/photo?fbid=829177521745499&set=pcb.829182215078363" className="w-full"><img src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/318230275_829177511745500_4259538113822763662_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=JmzCc5EIiygAX8sBrqw&tn=k8xV7Ilu0ua5r7if&_nc_ht=scontent-waw1-1.xx&oh=00_AfDyuv6ehSj46cU_NXs3YHlzXN6W8FN3k3VoUlN3zxxnFg&oe=639BA731" className="inset-0 h-full w-full object-cover object-center rounded-lg" alt="bg" /></a>
+                        <a href="https://www.facebook.com/photo?fbid=829177735078811&set=pcb.829182215078363" className="w-full"><img src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/318302147_829177725078812_7681457617695034799_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=LkSLJP0i9YsAX_qkVLp&tn=k8xV7Ilu0ua5r7if&_nc_ht=scontent-waw1-1.xx&oh=00_AfDwj1QeZzGmIxa_Dt2Hv_k0fR__v-1TDgzddQ6pcYDLWw&oe=639D340B" className="inset-0 h-full w-full object-cover object-center rounded-lg" alt="bg" /></a>
+                        <a href="https://www.facebook.com/photo?fbid=829177681745483&set=pcb.829182215078363" className="w-full"><img src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/318310674_829177668412151_2150597853912383112_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=T1eDanCYuJsAX_k52Kk&_nc_ht=scontent-waw1-1.xx&oh=00_AfDoqDgJqutNiUuAPhMLSz1RTbwUglwC9w5FgtbCTizkzw&oe=639BEF73" className="inset-0 h-full w-full object-cover object-center rounded-lg" alt="bg" /></a>
+                        <a href="https://www.facebook.com/photo?fbid=829177728412145&set=pcb.829182215078363" className="w-full"><img src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/318334718_829177705078814_6861518001204380063_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=3GEbYq-iFaoAX8AJwHW&_nc_ht=scontent-waw1-1.xx&oh=00_AfDefXC1b2XDJ4kJ9J3iyJyeOq2ZuWskKBJz_hPRarmGGQ&oe=639C700B" className="inset-0 h-full w-full object-cover object-center rounded-lg" alt="bg" /></a>
+                    </div>
+                </div>
+                <h1 className="text-4xl text-gray-500 my-6">Sesja Ślubna</h1>
+                <div className="container mx-auto items-center">
+                    <div className="grid grid-cols-2 gap-2 lg:grid-cols-4">
+                        <a href="https://www.facebook.com/photo?fbid=820756672587584&set=pcb.820759159254002" className="w-full"><img src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/316826124_820756655920919_8489763748584231073_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=yF3I461FSfgAX_p3sjn&_nc_ht=scontent-waw1-1.xx&oh=00_AfAMZaFwi0l0tLJCN_AvR-UKd46_Htm5e2w9ZOB18efNQg&oe=639D371D" className="inset-0 h-full w-full object-cover object-center rounded-lg" alt="bg" /></a>
+                        <a href="https://www.facebook.com/photo?fbid=820756205920964&set=pcb.820759159254002" className="w-full"><img src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/316412101_820756202587631_11997306384598515_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=Fnw28gScFhgAX89pGZc&tn=k8xV7Ilu0ua5r7if&_nc_ht=scontent-waw1-1.xx&oh=00_AfCTeWspbuKYVcQyqcrHPnJ_YG1OW0aMNhxZ3WBW6zkBzg&oe=639C5BB9" className="inset-0 h-full w-full object-cover object-center rounded-lg" alt="bg" /></a>
+                        <a href="https://www.facebook.com/photo/?fbid=820756495920935&set=pcb.820759159254002" className="w-full col-span-2 row-span-2"><img src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/316413935_820756439254274_3187008514986869962_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=xP8QecOBpfQAX9QwQkP&tn=k8xV7Ilu0ua5r7if&_nc_ht=scontent-waw1-1.xx&oh=00_AfB0RB6bKLmudq0_kkHdpBpCGz8lJbq1d0tWKTOYX99FQw&oe=639D5934" className="inset-0 h-full w-full object-cover object-center rounded-lg" alt="bg" /></a>
+                        <a href="https://www.facebook.com/photo?fbid=820756685920916&set=pcb.820759159254002" className="w-full"><img src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/316677023_820756669254251_6768811590141305148_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=RyWCVpbjGuEAX9HW08o&_nc_ht=scontent-waw1-1.xx&oh=00_AfDPCvG11_-4uiKoe7xtySuNJVBTqkqTr3Osx_tCeQBpsg&oe=639BF81E" className="inset-0 h-full w-full object-cover object-center rounded-lg" alt="bg" /></a>
+                        <a href="https://www.facebook.com/photo?fbid=820756759254242&set=pcb.820759159254002" className="w-full"><img src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/316415296_820756755920909_7159052989886206781_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=0C76peyem6wAX-z3ev2&tn=k8xV7Ilu0ua5r7if&_nc_ht=scontent-waw1-1.xx&oh=00_AfCq70IFozGe1Kyiawxb_6Zfp2nsrJP94jeMFgxwUhDZvw&oe=639CFCE1" className="inset-0 h-full w-full object-cover object-center rounded-lg" alt="bg" /></a>
+                    </div>
+                </div>
+                <h1 className="text-4xl text-gray-500 my-6">Sesja portretowa</h1>
+                <div className="container mx-auto items-center">
+                    <div className="grid grid-cols-2 gap-2 lg:grid-cols-4">
+                        <a href="https://www.facebook.com/photo/?fbid=687504059246180&set=pcb.687504695912783" className="w-full col-span-2 row-span-2"><img src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/283793891_687504055912847_4717125320938115479_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=6R97WznBDqUAX_QmwaW&_nc_ht=scontent-waw1-1.xx&oh=00_AfDe8X3epgjp87UlSbFHxcTDxA6Nj1J-bQPElAmIF0Tqqw&oe=639D4312" className="inset-0 h-full w-full object-cover object-center rounded-lg" alt="bg" /></a>
+                        <a href="https://www.facebook.com/photo?fbid=675009627162290&set=pcb.675010720495514" className="w-full"><img src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/282705322_675009623828957_7967575257622227690_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=qF7qFlkGm4IAX9qbFgP&_nc_ht=scontent-waw1-1.xx&oh=00_AfBxaha-xv8QuN_K7NyuYZbkWWx575J22ha96JHzt3PrnQ&oe=639CB176" className="inset-0 h-full w-full object-cover object-center rounded-lg" alt="bg" /></a>
+                        <a href="https://www.facebook.com/photo?fbid=675009763828943&set=pcb.675010720495514" className="w-full"><img src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/282114212_675009757162277_6127466440642397056_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=uPV-GFPuzrcAX8_Eh31&_nc_ht=scontent-waw1-1.xx&oh=00_AfDkRseBRJMfP5wlC9Bk6Dt3X5GVwDwFH0oZA_j1tlqkHA&oe=639C4C3C" className="inset-0 h-full w-full object-cover object-center rounded-lg" alt="bg" /></a>
+                        <a href="https://www.facebook.com/photo?fbid=675010120495574&set=pcb.675010720495514" className="w-full"><img src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/282559006_675010113828908_6555288891754988282_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=eX6JxaCWoXsAX-pUNwT&_nc_ht=scontent-waw1-1.xx&oh=00_AfBVvxk8h7eH8QakqgQqBh_YEBH4ngTIDUKz2ZWFHuPzbw&oe=639C3012" className="inset-0 h-full w-full object-cover object-center rounded-lg" alt="bg" /></a>
+                        <a href="https://www.facebook.com/photo?fbid=687504155912837&set=pcb.687504695912783" className="w-full"><img src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/283784297_687504152579504_5197770964703663209_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=Y-V7J6mKbWcAX_payaz&tn=k8xV7Ilu0ua5r7if&_nc_ht=scontent-waw1-1.xx&oh=00_AfBSH2v32Rzl8m6-9tbzlarwFNWH2At15ui-fHcASQnJxA&oe=639C81D1" className="inset-0 h-full w-full object-cover object-center rounded-lg" alt="bg" /></a>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
+
+export default Porfolio
